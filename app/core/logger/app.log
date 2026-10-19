@@ -1,0 +1,6 @@
+2026-10-19 19:23:33.655 | INFO     | request_id - 1111 | __main__:req1:65 - 1--req1 req_id = 1111
+2026-10-19 19:23:33.668 | INFO     | request_id - 1111 | __main__:req2:74 - 1--req2 req_id = 1111
+2026-10-19 19:23:35.682 | INFO     | request_id - 91a1d6e6-ad15-4f7f-b17a-394c5d3f0aec | __main__:req1:68 - 2--req1 req_id = 91a1d6e6-ad15-4f7f-b17a-394c5d3f0aec
+2026-10-19 19:23:35.682 | INFO     | request_id - 1111 | __main__:req1:70 - 3--req1 req_id = 1111
+2026-10-19 19:23:35.682 | INFO     | request_id - 2d094165-8736-46e3-8159-7090595e7dc6 | __main__:req2:77 - 2--req2 req_id = 2d094165-8736-46e3-8159-7090595e7dc6
+2026-10-19 19:23:35.682 | INFO     | request_id - 1111 | __main__:req2:79 - 3--req2 req_id = 1111
