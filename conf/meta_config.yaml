@@ -131,7 +131,7 @@ tables:
         role: primary_key
         description: 订单唯一标识。
         alias: [ 订单ID ]
-        sync: false
+        sync: false #表示当前的字段值是否需要进行es索引
 
       - name: customer_id
         role: foreign_key
