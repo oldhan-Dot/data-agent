@@ -137,7 +137,7 @@ if __name__ == '__main__':
         #读取数据
         print(result)
         print(result["hits"]["hits"][0]["_source"])
-
+        #result["hits"]["hits"] : {[],[],[],[]}
 
 
         await es_client_manager.close()

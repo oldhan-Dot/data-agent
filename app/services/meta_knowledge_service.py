@@ -96,6 +96,8 @@ class MetaKnowledgeService:
         #保存到meta库
         self.meta_mysql_repo.save_table_infos(table_infos)
         self.meta_mysql_repo.save_column_infos(column_infos)
+        # 返回字段信息列表
+        return column_infos
 
     async def _save_column_infos_to_qdrant(self,column_infos:list[ColumnInfoMySQL]):
         #遍历column_infos收集ids,payloads,texts(name,description,alia)
@@ -135,7 +137,7 @@ class MetaKnowledgeService:
         payloads:list[ColumnInfoQdrant] = [item["payload"] for item in temp_list]
         texts:list[str] = [item["text"] for item in temp_list]
 
-        batch_size = 16
+        batch_size = 4
         vectors: list[list[float]] = []
         for i in range(0, len(texts), batch_size):
             batch_texts = texts[i:i+batch_size]
@@ -199,6 +201,9 @@ class MetaKnowledgeService:
         self.meta_mysql_repo.save_metric_infos(metric_infos)
         self.meta_mysql_repo.save_column_metric_infos(column_metrics)
 
+        # 返回指标信息列表，供后续写入 Qdrant 使用
+        return metric_infos
+
 
     async def _save_metric_info_to_qdrant(self,metric_infos:list[MetricInfoMySQL]):
         # 遍历metric_infos收集ids,payloads,texts(name,description,alia)
@@ -235,7 +240,7 @@ class MetaKnowledgeService:
         payloads: list[MetricInfoQdrant] = [item["payload"] for item in temp_list]
         texts: list[str] = [item["text"] for item in temp_list]
 
-        batch_size = 16
+        batch_size = 4
         vectors: list[list[float]] = []
         for i in range(0, len(texts), batch_size):
             batch_texts = texts[i:i + batch_size]

@@ -1,0 +1,72 @@
+2026-10-22 10:19:25.945 | INFO     | request_id - 1111 | __main__:start_build:36 - 启动元数据知识库构建
+2026-10-22 10:19:28.505 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:50 - 进行元数据知识库的构建处理....
+2026-10-22 10:19:29.485 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:55 - 将表信息和字段信息存储到meta库成功
+2026-10-22 10:19:30.278 | ERROR    | request_id - 1111 | __main__:start_build:71 - 构建元知识库失败:Server disconnected
+2026-10-22 10:27:01.714 | INFO     | request_id - 1111 | __main__:start_build:36 - 启动元数据知识库构建
+2026-10-22 10:27:03.337 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:50 - 进行元数据知识库的构建处理....
+2026-10-22 10:27:04.173 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:55 - 将表信息和字段信息存储到meta库成功
+2026-10-22 10:27:06.766 | ERROR    | request_id - 1111 | __main__:start_build:71 - 构建元知识库失败:Server disconnected
+2026-10-22 13:55:31.792 | INFO     | request_id - 1111 | __main__:start_build:36 - 启动元数据知识库构建
+2026-10-22 13:55:34.097 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:50 - 进行元数据知识库的构建处理....
+2026-10-22 13:55:34.935 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:55 - 将表信息和字段信息存储到meta库成功
+2026-10-22 13:56:22.421 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:58 - 将字段信息添加到qdrant成功
+2026-10-22 13:56:22.719 | ERROR    | request_id - 1111 | __main__:start_build:71 - 构建元知识库失败:IndicesClient.exists() got an unexpected keyword argument 'index_name'
+2026-10-22 13:56:52.082 | INFO     | request_id - 1111 | __main__:start_build:36 - 启动元数据知识库构建
+2026-10-22 13:56:54.862 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:50 - 进行元数据知识库的构建处理....
+2026-10-22 13:56:55.923 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:55 - 将表信息和字段信息存储到meta库成功
+2026-10-22 13:58:10.448 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:58 - 将字段信息添加到qdrant成功
+2026-10-22 13:58:12.433 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:61 - 将字段值信息添加到es成功
+2026-10-22 13:58:12.434 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:65 - 将指标信息存储到meta库成功
+2026-10-22 13:58:12.470 | ERROR    | request_id - 1111 | __main__:start_build:71 - 构建元知识库失败:'NoneType' object is not iterable
+2026-10-22 13:58:31.835 | INFO     | request_id - 1111 | __main__:start_build:36 - 启动元数据知识库构建
+2026-10-22 13:58:34.395 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:50 - 进行元数据知识库的构建处理....
+2026-10-22 13:58:35.165 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:55 - 将表信息和字段信息存储到meta库成功
+2026-10-22 13:59:13.626 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:58 - 将字段信息添加到qdrant成功
+2026-10-22 13:59:15.489 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:61 - 将字段值信息添加到es成功
+2026-10-22 13:59:15.489 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:65 - 将指标信息存储到meta库成功
+2026-10-22 13:59:15.572 | ERROR    | request_id - 1111 | __main__:start_build:71 - 构建元知识库失败:429, message='Too Many Requests', url='http://121.41.23.68:8081'
+2026-10-22 13:59:41.218 | INFO     | request_id - 1111 | __main__:start_build:36 - 启动元数据知识库构建
+2026-10-22 13:59:43.722 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:50 - 进行元数据知识库的构建处理....
+2026-10-22 13:59:44.539 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:55 - 将表信息和字段信息存储到meta库成功
+2026-10-22 14:00:37.007 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:58 - 将字段信息添加到qdrant成功
+2026-10-22 14:00:37.598 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:61 - 将字段值信息添加到es成功
+2026-10-22 14:00:37.598 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:65 - 将指标信息存储到meta库成功
+2026-10-22 14:00:42.412 | ERROR    | request_id - 1111 | __main__:start_build:71 - 构建元知识库失败:'MetricQdrantRepository' object has no attribute 'insert_metric_vectors'
+2026-10-22 14:01:32.010 | INFO     | request_id - 1111 | __main__:start_build:36 - 启动元数据知识库构建
+2026-10-22 14:01:34.601 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:50 - 进行元数据知识库的构建处理....
+2026-10-22 14:01:35.639 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:55 - 将表信息和字段信息存储到meta库成功
+2026-10-22 14:02:20.119 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:58 - 将字段信息添加到qdrant成功
+2026-10-22 14:02:20.704 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:61 - 将字段值信息添加到es成功
+2026-10-22 14:02:20.705 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:65 - 将指标信息存储到meta库成功
+2026-10-22 14:02:26.486 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:68 - 将指标信息添加到qdrant成功
+2026-10-22 14:02:27.142 | INFO     | request_id - 1111 | __main__:start_build:69 - 构建知识库成功
+2026-10-22 14:08:18.155 | INFO     | request_id - 1111 | __main__:start_build:36 - 启动元数据知识库构建
+2026-10-22 14:08:20.552 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:50 - 进行元数据知识库的构建处理....
+2026-10-22 14:08:21.916 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:54 - 将表信息和字段信息存储到meta库成功
+2026-10-22 14:09:08.494 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:57 - 将字段信息添加到qdrant成功
+2026-10-22 14:09:09.134 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:60 - 将字段值信息添加到es成功
+2026-10-22 14:09:09.134 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:64 - 将指标信息存储到meta库成功
+2026-10-22 14:09:10.825 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:67 - 将指标信息添加到qdrant成功
+2026-10-22 14:09:11.144 | ERROR    | request_id - 1111 | __main__:start_build:71 - 构建元知识库失败:(asyncmy.errors.IntegrityError) (1062, "Duplicate entry 'dim_region.region_id' for key 'column_info.PRIMARY'")
+[SQL: INSERT INTO column_info (id, name, type, `role`, examples, description, alias, table_id) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)]
+[parameters: [('dim_region.region_id', 'region_id', 'varchar(20)', 'primary_key', '["R001", "R002", "R003", "R004", "R005", "R006"]', '地区唯一标识。', '["\\u5730\\u533aID", "\\u533a\\u57dfID"]', 'dim_region'), ('dim_region.province', 'province', 'varchar(50)', 'dimension', '["\\u5e7f\\u4e1c\\u7701", "\\u6d59\\u6c5f\\u7701", "\\u56db\\u5ddd\\u7701", "\\u5317\\u4eac\\u5e02", "\\u4e0a\\u6d77\\u5e02", "\\u6e56\\u5317\\u7701"]', '订单所属的省份名称。', '["\\u7701\\u4efd", "\\u7701", "\\u6240\\u5728\\u7701\\u4efd"]', 'dim_region'), ('dim_region.region_name', 'region_name', 'varchar(50)', 'dimension', '["\\u534e\\u5357", "\\u534e\\u4e1c", "\\u897f\\u5357", "\\u534e\\u5317", "\\u534e\\u4e2d"]', '订单所属的大区名称，如华东、华南等。', '["\\u5730\\u533a", "\\u533a\\u57df", "\\u5927\\u533a"]', 'dim_region'), ('dim_region.country', 'country', 'varchar(50)', 'dimension', '["\\u4e2d\\u56fd"]', '地区所属国家名称。', '["\\u56fd\\u5bb6", "\\u56fd\\u5bb6\\u540d\\u79f0"]', 'dim_region'), ('dim_customer.customer_id', 'customer_id', 'varchar(20)', 'primary_key', '["C001", "C002", "C003", "C004", "C005", "C006", "C007", "C008", "C009", "C010"]', '客户唯一标识。', '["\\u5ba2\\u6237ID", "\\u7528\\u6237ID"]', 'dim_customer'), ('dim_customer.customer_name', 'customer_name', 'varchar(50)', 'dimension', '["\\u674e\\u4f1f", "\\u738b\\u82b3", "\\u5f20\\u654f", "\\u5218\\u6d0b", "\\u9648\\u9759", "\\u8d75\\u78ca", "\\u9ec4\\u79c0\\u82f1", "\\u5434\\u658c", "\\u5468\\u71d5", "\\u5f90\\u6d69"]', '客户名称。', '["\\u5ba2\\u6237\\u540d\\u79f0", "\\u7528\\u6237\\u540d\\u79f0"]', 'dim_customer'), ('dim_customer.gender', 'gender', 'varchar(10)', 'dimension', '["\\u7537", "\\u5973"]', '客户性别。', '["\\u6027\\u522b"]', 'dim_customer'), ('dim_customer.member_level', 'member_level', 'varchar(20)', 'dimension', '["\\u9ec4\\u91d1", "\\u767d\\u94f6", "\\u9752\\u94dc", "\\u94c2\\u91d1"]', '客户会员等级。', '["\\u4f1a\\u5458\\u7b49\\u7ea7", "\\u7528\\u6237\\u7b49\\u7ea7"]', 'dim_customer')  ... displaying 10 of 24 total bound parameter sets ...  ('fact_order.order_quantity', 'order_quantity', 'int', 'measure', '[1, 5, 12, 8, 2, 10, 3, 6, 25, 4]', '订单中商品的购买数量。', '["\\u9500\\u91cf", "\\u8d2d\\u4e70\\u6570\\u91cf", "\\u4ef6\\u6570"]', 'fact_order'), ('fact_order.order_amount', 'order_amount', 'float', 'measure', '[8999.0, 6999.0, 125.0, 899.0, 60.0, 1399.0, 40.0, 299.0, 200.0, 9499.0]', '订单金额。', '["\\u9500\\u552e\\u989d", "\\u8ba2\\u5355\\u91d1\\u989d", "\\u6536\\u5165"]', 'fact_order')]]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-10-22 14:09:37.458 | INFO     | request_id - 1111 | __main__:start_build:36 - 启动元数据知识库构建
+2026-10-22 14:09:40.216 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:50 - 进行元数据知识库的构建处理....
+2026-10-22 14:09:41.161 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:54 - 将表信息和字段信息存储到meta库成功
+2026-10-22 14:10:20.546 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:57 - 将字段信息添加到qdrant成功
+2026-10-22 14:10:21.126 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:60 - 将字段值信息添加到es成功
+2026-10-22 14:10:21.127 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:64 - 将指标信息存储到meta库成功
+2026-10-22 14:10:23.984 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:67 - 将指标信息添加到qdrant成功
+2026-10-22 14:10:24.346 | INFO     | request_id - 1111 | __main__:start_build:69 - 构建知识库成功
+2026-10-23 15:04:36.690 | INFO     | request_id - 1111 | __main__:start_build:36 - 启动元数据知识库构建
+2026-10-23 15:04:39.000 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:50 - 进行元数据知识库的构建处理....
+2026-10-23 15:04:40.284 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:54 - 将表信息和字段信息存储到meta库成功
+2026-10-23 15:05:19.770 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:57 - 将字段信息添加到qdrant成功
+2026-10-23 15:05:20.405 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:60 - 将字段值信息添加到es成功
+2026-10-23 15:05:20.406 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:64 - 将指标信息存储到meta库成功
+2026-10-23 15:05:22.064 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:67 - 将指标信息添加到qdrant成功
+2026-10-23 15:05:22.368 | ERROR    | request_id - 1111 | __main__:start_build:71 - 构建元知识库失败:(asyncmy.errors.IntegrityError) (1062, "Duplicate entry 'dim_region.region_id' for key 'column_info.PRIMARY'")
+[SQL: INSERT INTO column_info (id, name, type, `role`, examples, description, alias, table_id) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)]
+[parameters: [('dim_region.region_id', 'region_id', 'varchar(20)', 'primary_key', '["R001", "R002", "R003", "R004", "R005", "R006"]', '地区唯一标识。', '["\\u5730\\u533aID", "\\u533a\\u57dfID"]', 'dim_region'), ('dim_region.province', 'province', 'varchar(50)', 'dimension', '["\\u5e7f\\u4e1c\\u7701", "\\u6d59\\u6c5f\\u7701", "\\u56db\\u5ddd\\u7701", "\\u5317\\u4eac\\u5e02", "\\u4e0a\\u6d77\\u5e02", "\\u6e56\\u5317\\u7701"]', '订单所属的省份名称。', '["\\u7701\\u4efd", "\\u7701", "\\u6240\\u5728\\u7701\\u4efd"]', 'dim_region'), ('dim_region.region_name', 'region_name', 'varchar(50)', 'dimension', '["\\u534e\\u5357", "\\u534e\\u4e1c", "\\u897f\\u5357", "\\u534e\\u5317", "\\u534e\\u4e2d"]', '订单所属的大区名称，如华东、华南等。', '["\\u5730\\u533a", "\\u533a\\u57df", "\\u5927\\u533a"]', 'dim_region'), ('dim_region.country', 'country', 'varchar(50)', 'dimension', '["\\u4e2d\\u56fd"]', '地区所属国家名称。', '["\\u56fd\\u5bb6", "\\u56fd\\u5bb6\\u540d\\u79f0"]', 'dim_region'), ('dim_customer.customer_id', 'customer_id', 'varchar(20)', 'primary_key', '["C001", "C002", "C003", "C004", "C005", "C006", "C007", "C008", "C009", "C010"]', '客户唯一标识。', '["\\u5ba2\\u6237ID", "\\u7528\\u6237ID"]', 'dim_customer'), ('dim_customer.customer_name', 'customer_name', 'varchar(50)', 'dimension', '["\\u674e\\u4f1f", "\\u738b\\u82b3", "\\u5f20\\u654f", "\\u5218\\u6d0b", "\\u9648\\u9759", "\\u8d75\\u78ca", "\\u9ec4\\u79c0\\u82f1", "\\u5434\\u658c", "\\u5468\\u71d5", "\\u5f90\\u6d69"]', '客户名称。', '["\\u5ba2\\u6237\\u540d\\u79f0", "\\u7528\\u6237\\u540d\\u79f0"]', 'dim_customer'), ('dim_customer.gender', 'gender', 'varchar(10)', 'dimension', '["\\u7537", "\\u5973"]', '客户性别。', '["\\u6027\\u522b"]', 'dim_customer'), ('dim_customer.member_level', 'member_level', 'varchar(20)', 'dimension', '["\\u9ec4\\u91d1", "\\u767d\\u94f6", "\\u9752\\u94dc", "\\u94c2\\u91d1"]', '客户会员等级。', '["\\u4f1a\\u5458\\u7b49\\u7ea7", "\\u7528\\u6237\\u7b49\\u7ea7"]', 'dim_customer')  ... displaying 10 of 24 total bound parameter sets ...  ('fact_order.order_quantity', 'order_quantity', 'int', 'measure', '[1, 5, 12, 8, 2, 10, 3, 6, 25, 4]', '订单中商品的购买数量。', '["\\u9500\\u91cf", "\\u8d2d\\u4e70\\u6570\\u91cf", "\\u4ef6\\u6570"]', 'fact_order'), ('fact_order.order_amount', 'order_amount', 'float', 'measure', '[8999.0, 6999.0, 125.0, 899.0, 60.0, 1399.0, 40.0, 299.0, 200.0, 9499.0]', '订单金额。', '["\\u9500\\u552e\\u989d", "\\u8ba2\\u5355\\u91d1\\u989d", "\\u6536\\u5165"]', 'fact_order')]]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)

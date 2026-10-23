@@ -1,0 +1,57 @@
+2026-10-20 21:01:44.529 | INFO     | request_id - 1111 | __main__:start_build:36 - 启动元数据知识库构建
+2026-10-20 21:01:47.420 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:43 - 进行元数据知识库的构建处理....
+2026-10-20 21:01:47.421 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:47 - 将表信息和字段信息存储到meta库成功
+2026-10-20 21:01:47.421 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:50 - 将字段信息添加到qdrant成功
+2026-10-20 21:01:47.421 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:53 - 将字段值信息添加到es成功
+2026-10-20 21:01:47.421 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:57 - 将指标信息存储到meta库成功
+2026-10-20 21:01:47.421 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:60 - 将指标信息添加到qdrant成功
+2026-10-20 21:01:47.421 | INFO     | request_id - 1111 | __main__:start_build:69 - 构建知识库成功
+2026-10-22 09:51:23.800 | INFO     | request_id - 1111 | __main__:start_build:36 - 启动元数据知识库构建
+2026-10-22 09:51:25.046 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:50 - 进行元数据知识库的构建处理....
+2026-10-22 09:51:25.946 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:54 - 将表信息和字段信息存储到meta库成功
+2026-10-22 09:51:26.009 | ERROR    | request_id - 1111 | __main__:start_build:71 - 构建元知识库失败:'NoneType' object is not iterable
+2026-10-22 09:54:10.134 | INFO     | request_id - 1111 | __main__:start_build:36 - 启动元数据知识库构建
+2026-10-22 09:54:11.227 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:50 - 进行元数据知识库的构建处理....
+2026-10-22 09:54:12.519 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:55 - 将表信息和字段信息存储到meta库成功
+2026-10-22 09:54:12.559 | ERROR    | request_id - 1111 | __main__:start_build:71 - 构建元知识库失败:'NoneType' object is not iterable
+2026-10-22 10:00:17.953 | INFO     | request_id - 1111 | __main__:start_build:36 - 启动元数据知识库构建
+2026-10-22 10:00:19.016 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:50 - 进行元数据知识库的构建处理....
+2026-10-22 10:00:19.870 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:55 - 将表信息和字段信息存储到meta库成功
+2026-10-22 10:00:20.575 | ERROR    | request_id - 1111 | __main__:start_build:71 - 构建元知识库失败:Server disconnected
+2026-10-22 10:18:57.107 | INFO     | request_id - 1111 | __main__:start_build:36 - 启动元数据知识库构建
+2026-10-22 10:18:58.309 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:50 - 进行元数据知识库的构建处理....
+2026-10-22 10:18:59.192 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:55 - 将表信息和字段信息存储到meta库成功
+2026-10-22 10:19:00.023 | ERROR    | request_id - 1111 | __main__:start_build:71 - 构建元知识库失败:Server disconnected
+2026-10-22 10:26:26.631 | INFO     | request_id - 1111 | __main__:start_build:36 - 启动元数据知识库构建
+2026-10-22 10:26:27.734 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:50 - 进行元数据知识库的构建处理....
+2026-10-22 10:26:28.541 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:55 - 将表信息和字段信息存储到meta库成功
+2026-10-22 10:26:33.590 | ERROR    | request_id - 1111 | __main__:start_build:71 - 构建元知识库失败:Server disconnected
+2026-10-22 13:50:24.594 | INFO     | request_id - 1111 | __main__:start_build:36 - 启动元数据知识库构建
+2026-10-22 13:50:26.783 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:50 - 进行元数据知识库的构建处理....
+2026-10-22 13:50:27.870 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:55 - 将表信息和字段信息存储到meta库成功
+2026-10-22 13:50:55.457 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:58 - 将字段信息添加到qdrant成功
+2026-10-22 13:50:55.963 | ERROR    | request_id - 1111 | __main__:start_build:71 - 构建元知识库失败:IndicesClient.exists() got an unexpected keyword argument 'index_name'
+2026-10-22 13:54:21.054 | INFO     | request_id - 1111 | __main__:start_build:36 - 启动元数据知识库构建
+2026-10-22 13:54:22.989 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:50 - 进行元数据知识库的构建处理....
+2026-10-22 13:54:24.030 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:55 - 将表信息和字段信息存储到meta库成功
+2026-10-22 13:55:04.146 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:58 - 将字段信息添加到qdrant成功
+2026-10-22 13:55:04.535 | ERROR    | request_id - 1111 | __main__:start_build:71 - 构建元知识库失败:IndicesClient.exists() got an unexpected keyword argument 'index_name'
+2026-10-22 14:07:04.972 | INFO     | request_id - 1111 | __main__:start_build:36 - 启动元数据知识库构建
+2026-10-22 14:07:06.990 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:50 - 进行元数据知识库的构建处理....
+2026-10-22 14:07:07.781 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:54 - 将表信息和字段信息存储到meta库成功
+2026-10-22 14:07:42.777 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:57 - 将字段信息添加到qdrant成功
+2026-10-22 14:07:43.335 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:60 - 将字段值信息添加到es成功
+2026-10-22 14:07:43.335 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:64 - 将指标信息存储到meta库成功
+2026-10-22 14:07:45.177 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:67 - 将指标信息添加到qdrant成功
+2026-10-22 14:07:45.513 | ERROR    | request_id - 1111 | __main__:start_build:71 - 构建元知识库失败:(asyncmy.errors.IntegrityError) (1062, "Duplicate entry 'dim_region.region_id' for key 'column_info.PRIMARY'")
+[SQL: INSERT INTO column_info (id, name, type, `role`, examples, description, alias, table_id) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)]
+[parameters: [('dim_region.region_id', 'region_id', 'varchar(20)', 'primary_key', '["R001", "R002", "R003", "R004", "R005", "R006"]', '地区唯一标识。', '["\\u5730\\u533aID", "\\u533a\\u57dfID"]', 'dim_region'), ('dim_region.province', 'province', 'varchar(50)', 'dimension', '["\\u5e7f\\u4e1c\\u7701", "\\u6d59\\u6c5f\\u7701", "\\u56db\\u5ddd\\u7701", "\\u5317\\u4eac\\u5e02", "\\u4e0a\\u6d77\\u5e02", "\\u6e56\\u5317\\u7701"]', '订单所属的省份名称。', '["\\u7701\\u4efd", "\\u7701", "\\u6240\\u5728\\u7701\\u4efd"]', 'dim_region'), ('dim_region.region_name', 'region_name', 'varchar(50)', 'dimension', '["\\u534e\\u5357", "\\u534e\\u4e1c", "\\u897f\\u5357", "\\u534e\\u5317", "\\u534e\\u4e2d"]', '订单所属的大区名称，如华东、华南等。', '["\\u5730\\u533a", "\\u533a\\u57df", "\\u5927\\u533a"]', 'dim_region'), ('dim_region.country', 'country', 'varchar(50)', 'dimension', '["\\u4e2d\\u56fd"]', '地区所属国家名称。', '["\\u56fd\\u5bb6", "\\u56fd\\u5bb6\\u540d\\u79f0"]', 'dim_region'), ('dim_customer.customer_id', 'customer_id', 'varchar(20)', 'primary_key', '["C001", "C002", "C003", "C004", "C005", "C006", "C007", "C008", "C009", "C010"]', '客户唯一标识。', '["\\u5ba2\\u6237ID", "\\u7528\\u6237ID"]', 'dim_customer'), ('dim_customer.customer_name', 'customer_name', 'varchar(50)', 'dimension', '["\\u674e\\u4f1f", "\\u738b\\u82b3", "\\u5f20\\u654f", "\\u5218\\u6d0b", "\\u9648\\u9759", "\\u8d75\\u78ca", "\\u9ec4\\u79c0\\u82f1", "\\u5434\\u658c", "\\u5468\\u71d5", "\\u5f90\\u6d69"]', '客户名称。', '["\\u5ba2\\u6237\\u540d\\u79f0", "\\u7528\\u6237\\u540d\\u79f0"]', 'dim_customer'), ('dim_customer.gender', 'gender', 'varchar(10)', 'dimension', '["\\u7537", "\\u5973"]', '客户性别。', '["\\u6027\\u522b"]', 'dim_customer'), ('dim_customer.member_level', 'member_level', 'varchar(20)', 'dimension', '["\\u9ec4\\u91d1", "\\u767d\\u94f6", "\\u9752\\u94dc", "\\u94c2\\u91d1"]', '客户会员等级。', '["\\u4f1a\\u5458\\u7b49\\u7ea7", "\\u7528\\u6237\\u7b49\\u7ea7"]', 'dim_customer')  ... displaying 10 of 24 total bound parameter sets ...  ('fact_order.order_quantity', 'order_quantity', 'int', 'measure', '[1, 5, 12, 8, 2, 10, 3, 6, 25, 4]', '订单中商品的购买数量。', '["\\u9500\\u91cf", "\\u8d2d\\u4e70\\u6570\\u91cf", "\\u4ef6\\u6570"]', 'fact_order'), ('fact_order.order_amount', 'order_amount', 'float', 'measure', '[8999.0, 6999.0, 125.0, 899.0, 60.0, 1399.0, 40.0, 299.0, 200.0, 9499.0]', '订单金额。', '["\\u9500\\u552e\\u989d", "\\u8ba2\\u5355\\u91d1\\u989d", "\\u6536\\u5165"]', 'fact_order')]]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-10-22 14:12:05.168 | INFO     | request_id - 1111 | __main__:start_build:36 - 启动元数据知识库构建
+2026-10-22 14:12:07.381 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:50 - 进行元数据知识库的构建处理....
+2026-10-22 14:12:08.156 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:54 - 将表信息和字段信息存储到meta库成功
+2026-10-22 14:12:59.454 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:57 - 将字段信息添加到qdrant成功
+2026-10-22 14:13:03.557 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:60 - 将字段值信息添加到es成功
+2026-10-22 14:13:03.557 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:64 - 将指标信息存储到meta库成功
+2026-10-22 14:13:07.152 | INFO     | request_id - 1111 | app.services.meta_knowledge_service:build:67 - 将指标信息添加到qdrant成功
+2026-10-22 14:13:07.501 | INFO     | request_id - 1111 | __main__:start_build:69 - 构建知识库成功

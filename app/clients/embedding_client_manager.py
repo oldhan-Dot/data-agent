@@ -30,7 +30,7 @@ if __name__ == '__main__':
         #生成多个向量
         vectors:list[list[float]] = await embedding_client_manager.client.aembed_documents(["hello","guigu"])
         print(vectors)
-        print(len(vectors),len(vectors[0])) #2 1024
+        print(len(vectors),len(vectors[0])) #2 1024  =>[[float]]
 
     asyncio.run(test())
 

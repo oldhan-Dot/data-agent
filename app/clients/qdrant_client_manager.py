@@ -85,6 +85,8 @@ if __name__ == '__main__':
                 ]
             )
         )
+        print(result) #[ScoredPoint(id=9, version=1, score=0.75554717,
+                        # payload={'color': 'blue'}, vector=None, shard_key=None, order_value=None),()]
         points = result.points
         print(points)
         for point in points:
